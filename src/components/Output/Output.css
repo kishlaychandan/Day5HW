@@ -1,0 +1,41 @@
+.output{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    background-color: rgba(250, 169, 19, 0.85);
+    box-shadow: 12px 13px 6px orange;
+    margin-bottom:2rem;
+    /* max-height: 30rem;
+    overflow-y: scroll; */
+    padding: 1.5rem 3rem;
+}
+.output h1{
+    font-size: 3rem;
+    animation: heading 4s linear infinite;
+}
+@keyframes heading {
+    0%{
+        color: red;
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: red; 
+}
+}
+.output p{
+    font-size: 1.3rem;
+    color: white;
+
+}
