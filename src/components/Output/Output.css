@@ -39,3 +39,19 @@
     color: white;
 
 }
+
+@media screen and (max-width: 1000px) {
+    .output{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 603px) {
+    .output p{ 
+        font-size: 1rem;
+    }
+    .output{
+        padding: 1.5rem;
+        text-align: justify;
+    }
+    
+}

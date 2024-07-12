@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -13,4 +14,8 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Poppins', sans-serif;
+}
+#root{
+  /* background-color: red; */
+  width: 100%;
 }

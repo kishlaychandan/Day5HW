@@ -13,6 +13,7 @@
 }
 .inputContainer .heading{
     font-size: 2.5rem;
+    text-align: center;
     font-weight: bold;
     animation: glow 6s ease-in-out infinite alternate;
 }
@@ -58,4 +59,20 @@
     border: 1px solid white;
     background-color: black;
     color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .inputContainer{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 603px) {
+    /* .inputContainer{
+        width: 90%;
+    } */
+    .input{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
